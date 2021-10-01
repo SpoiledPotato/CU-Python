@@ -1,0 +1,17 @@
+a=(5, 6, "hello", "no")
+print(a[0])
+print(a[-1][0])
+print(a[0:2])
+print(a[0:1])
+print(a[0])
+b=(7, 8, 12, 18)
+print(a+b)
+print(sum(b), min(b), max(b))
+for i in a:
+    print(i)
+print("-----------------------------")
+for i in range(0, len(a)):
+    print(a[i])
+c=()
+c=c+(5,)
+print(c)
