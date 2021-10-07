@@ -29,3 +29,13 @@ def decrypt(S, key):
         decryptedString += chr((a-b) % 26 + 65)
 
     return decryptedString
+
+
+inp = input("Do you want to (E)NCRYPT or (D)ECRYPT the text? ")
+if inp == 'E' or inp == 'e':
+    encryptedText = encrypt(input("Enter text: "), input("Enter key: "))
+    print("Encrypted text:", encryptedText)
+elif inp == 'D' or inp == 'd':
+    decryptedText = decrypt(input("Enter text: "), input("Enter key: "))
+    print("Decrypted text:", decryptedText)
+
