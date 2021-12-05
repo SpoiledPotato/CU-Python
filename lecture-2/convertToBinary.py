@@ -11,16 +11,20 @@
 
 num = 19
 
-if num < 0:
-    isNeg = True
-    num = abs(num)
-else:
-    isNeg = False
-result = ''
+result = "aaa"
+print(result)
+
 if num == 0:
     result = '0'
+
 while num > 0:
     result = str(num%2) + result
+    
     num = num // 2
     # if isNeg:
     #     #something
+
+x = 3
+
+
+print(x//2)

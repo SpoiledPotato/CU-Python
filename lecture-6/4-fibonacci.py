@@ -15,7 +15,8 @@ def fib_efficient(n, d):
         d[n] = ans
         return ans
 
-
-d = {1: 1, 2: 2}
+d = {1: 1, 2: 1}
 print(fib_efficient(40, d))
-print(fib(35))
+# print(fib(35))
+
+# 1, 1, 2, 3, 5, 8, 13, 21...
