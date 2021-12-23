@@ -11,7 +11,7 @@
 
 num = 19
 
-result = "aaa"
+result = ""
 print(result)
 
 if num == 0:
@@ -27,4 +27,4 @@ while num > 0:
 x = 3
 
 
-print(x//2)
+print(result)
