@@ -9,5 +9,5 @@ def binToDec(binary):
     return d
 
 
-myBinary = "1101"
+myBinary = "111101100"
 print(binToDec(myBinary))
