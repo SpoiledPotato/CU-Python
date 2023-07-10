@@ -14,9 +14,9 @@ class NewTuple(object):
 
 
 myTuple = NewTuple()
-myTuple.add('irakli')
-myTuple.add('tulashvili')
-myTuple.add('irakli')
+myTuple.add('Johnny')
+myTuple.add('Sins')
+myTuple.add('Zukerburger')
 print(myTuple)
 myTuple.remove(1)
 print(myTuple)

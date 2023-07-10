@@ -6,6 +6,6 @@ def filterTuple(t):
     return resTuple
 
 
-myTuple = ("iyo", "da", "ara", "iyo", "ra", "irakli", "orkestri", "didgori", "kata", "kurdgeli")
+myTuple = ("lorem", "ipsum", "dolor", "sit", "amet", "meti", "agar", "vici", "avto", "gurgenidze")
 filteredTuple = filterTuple(myTuple)
 print(filteredTuple)

@@ -18,5 +18,5 @@ n = 21
 months = countMonths(n)
 
 a = open("result.txt", "w")
-a.write(str(n) + " kurdgeli iqneba " + str(months) + " tveshi.")
+a.write(str(n) + " kurdgeli damzaddeba " + str(months) + " tveshi.")
 a.close()
